@@ -1,8 +1,9 @@
 {
-  "name": "slack-bot",
+  "name": "takaba-bot",
+  "version": "1.0.1",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "bin": "./index.ts",
   "devDependencies": {
     "@types/bun": "latest"
   },
