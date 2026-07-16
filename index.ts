@@ -1,5 +1,5 @@
 import { App } from "@slack/bolt";
-const jokes: readonly string[] = ["Don't marry me! I don't want you as my wi-fi!","Looks like it might be time for Geto, to get-gone"];
+const jokes: readonly string[] = ["Don't marry me! I don't want you as my Wi-Fi!","Looks like it might be time for Geto, to get-gone"];
 const keywords: string[] = ["joke","humor","humour","funny"];
 var chosenJoke=0;
 
@@ -17,7 +17,9 @@ app.message(async ({ message, say}) => {
     const text = message.text ?? "";
 
     if (keywords.some(keyword => text.includes(keyword))) {
-    await say("Omg you are a wifi!");
+        chosenJoke = Math.floor(Math.random() * jokes.length);
+        var joke = jokes[chosenJoke];
+    await say(joke);
     return;
     } else{
         await say(`You said: ${text}`);
