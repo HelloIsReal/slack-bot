@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 import { App } from "@slack/bolt";
 const jokes: readonly string[] = ["Don't marry me! I don't want you as my Wi-Fi!","Looks like it might be time for Geto, to get-gone"];
 const keywords: string[] = ["joke","humor","humour","funny"];
