@@ -10,7 +10,7 @@ If you want to talk to him, first mention his name, then you can do the followin
 - greet takaba!
 - ask him to say a joke
 - ask him about rhythm games (don't ask me why he knows)
-- 
+- ask him his opinions on stuff! (I recommend not asking anything controversial :D )
 
 
 
