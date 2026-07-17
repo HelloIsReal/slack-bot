@@ -13,11 +13,7 @@ If you want to talk to him, first mention his name, then you can do the followin
 - ask him his opinions on stuff! (I recommend not asking anything controversial :D )
 
 
-
-
-
-
-
+Hackatime! (https://hackatime.hackclub.com/@Tishar/project/slack-bot)
 
 
 # Download instructions
