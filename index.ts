@@ -40,6 +40,9 @@ app.message(async ({ message, say}) => {
                 await say(greeting+", <@"+message.user+">");
             }
             return;
+        }else{
+            await say(`You said "${text}", What do you want?`);
+            return;    
         }
         // } else{
         //     await say(`You said: ${text}`);
