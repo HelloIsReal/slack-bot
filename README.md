@@ -43,8 +43,11 @@ finally, go go the event subscriptions tab on the left, and enable events. on th
 
 There's only one change you need to do, and that is to replace the line in the code that checks for a specific Slack id, with your own.
 
+in the workspace, ping the bot in your channel of choice to add the bot to it.
+
 To run the bot, run this in the terminal of the IDE you're using
 
 ```bash
 bun run index.ts
 ```
+if you did it all right, Takaba-bot should be up and running!
