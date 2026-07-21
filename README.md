@@ -16,14 +16,18 @@ Hackatime! (https://hackatime.hackclub.com/@Tishar/project/slack-bot)
 Github! (https://github.com/HelloIsReal/slack-bot)
 
 
-# Download instructions
+# Takaba-bot Download instructions
 To install dependencies:
 
-```bash
-bun install
-```
+### Step 1, Download bun
+to run this bot, first you'll need runtime for the bot. you can download Bun here, which is what the bot runs on
+[Bun download](https://bun.com)
 
-To run:
+### Step 2, create slack app.
+Next, you're going to make the app for the bot! this'll allow the bot to appear and work on slack
+[Slack api page](https://api.slack.com/apps)
+
+To run the bot, run this in the terminal of the IDE you're using
 
 ```bash
 bun run index.ts
