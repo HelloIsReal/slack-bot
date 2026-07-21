@@ -41,6 +41,7 @@ finally, go go the event subscriptions tab on the left, and enable events. on th
 
 ### Step 3, Running the bot
 
+There's only one change you need to do, and that is to replace the line in the code that checks for a specific Slack id, with your own.
 
 To run the bot, run this in the terminal of the IDE you're using
 
