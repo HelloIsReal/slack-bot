@@ -36,7 +36,7 @@ in the slackbot, create a new file called ".env", and in that file, type in "SLA
 
 Next on the left tab, click on socket mode, and enable it. It will prompt you to make a app level token. You can name it anything as it doesn't matter. Doing that should give you another token. Go to your .env file again and create a new line. type in "SLACK_APP_TOKEN = ", and add your new token to it.
 
-finally, go go the event subscriptions tab on the left, and enable events. on the same page, scroll down to the "subscribe to bot events" section. then add "message.channels". After doing that, you should get a yellow popup at the top prompting you to reinstall the app. make sure to do that (can also click the install to workspace button from earlier if the popup didn't appear)
+finally, go the event subscriptions tab on the left, and enable events. on the same page, scroll down to the "subscribe to events on behalf of user" section. then add "message.channels". After doing that, you should get a yellow popup at the top prompting you to reinstall the app. make sure to do that (can also click the install to workspace button from earlier if the popup didn't appear)
 
 ### Step 3, Running the bot
 To install and run the bot, run this in terminal
