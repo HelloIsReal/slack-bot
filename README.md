@@ -19,11 +19,11 @@ Github! (https://github.com/HelloIsReal/slack-bot)
 # Takaba-bot Download instructions
 
 ### Step 1, Downloading Bun
-First download the bot. You can do this by running the following command in the terminal.
+First download the bot. You can do this by downloading from npmjs
 
-```bash
-npx takaba-bot
-```
+https://www.npmjs.com/package/takaba-bot
+
+
 
 then open the bot in your chosen IDE.
 
@@ -55,8 +55,9 @@ In the workspace, ping the bot in your channel of choice to add the bot to it.
 
 To run the bot, run this in the terminal of the IDE you're using
 
+
 ```bash
-bun run index.ts
+bunx takaba-bot
 ```
 
 if you did it all right, Takaba-bot should be up and running!
