@@ -39,7 +39,7 @@ Next on the left tab, click on socket mode, and enable it. It will prompt you to
 finally, go go the event subscriptions tab on the left, and enable events. on the same page, scroll down to the "subscribe to bot events" section. then add "message.channels". After doing that, you should get a yellow popup at the top prompting you to reinstall the app. make sure to do that (can also click the install to workspace button from earlier if the popup didn't appear)
 
 ### Step 3, Running the bot
-To install and run the bot run this in terminal
+To install and run the bot, run this in terminal
 
 ```bash
 bunx takaba-bot 
@@ -51,12 +51,5 @@ One more thing you need to do before running the bot is to give your slack ID to
 Go to the .env file, then at the bottom, add "USER_ID: ", followed by your slack ID!
 
 In the workspace, ping the bot in your channel of choice to add the bot to it.
-
-To run the bot, run this in the terminal of the IDE you're using
-
-
-```bash
-bun run index.ts
-```
 
 if you did it all right, Takaba-bot should be up and running!
