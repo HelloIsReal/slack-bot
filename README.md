@@ -19,14 +19,6 @@ Github! (https://github.com/HelloIsReal/slack-bot)
 # Takaba-bot Download instructions
 
 ### Step 1, Downloading Bun
-First download the bot. You can do this by downloading from npmjs
-
-https://www.npmjs.com/package/takaba-bot
-
-
-
-then open the bot in your chosen IDE.
-
 To run this bot, first you'll need runtime for the bot. you can download Bun here, which is what the bot runs on
 [Bun download](https://bun.com)
 
@@ -47,6 +39,13 @@ Next on the left tab, click on socket mode, and enable it. It will prompt you to
 finally, go go the event subscriptions tab on the left, and enable events. on the same page, scroll down to the "subscribe to bot events" section. then add "message.channels". After doing that, you should get a yellow popup at the top prompting you to reinstall the app. make sure to do that (can also click the install to workspace button from earlier if the popup didn't appear)
 
 ### Step 3, Running the bot
+To install and run the bot run this in terminal
+
+```bash
+bunx takaba-bot 
+```
+Make sure your .env file is in the same folder as the bot!
+
 One more thing you need to do before running the bot is to give your slack ID to the bot. This is to make sure the bot only talks to you
 
 Go to the .env file, then at the bottom, add "USER_ID: ", followed by your slack ID!
@@ -57,7 +56,7 @@ To run the bot, run this in the terminal of the IDE you're using
 
 
 ```bash
-bunx takaba-bot
+bun run index.ts
 ```
 
 if you did it all right, Takaba-bot should be up and running!
