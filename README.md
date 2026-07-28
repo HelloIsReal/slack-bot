@@ -3,7 +3,7 @@
 THIS.... IS TAKABA BOT!
 First and first most... He doesn't want you as his Wi-Fi!!!! (ok kinda corny but :sob:)
 
-Takaba is a slackbot built to ease tension and create comedy!
+Takaba is a selfbot built to ease tension and create comedy!
 
 If you want to talk to him, first mention his name, then you can do the following
 
@@ -28,7 +28,7 @@ Next, you're going to make the app for the bot! this'll allow the bot to appear 
 
 click on create app, then from scratch. give it a name, then choose the workspace.
 
-next, go to oauth & permissions, then scroll down to bot token scopes. In that section, add the permissions "channels:read" and "chat:write". Then scroll up on the same page, and then click install to "workspace" (workspace should instead say your chosen workspace)
+next, go to oauth & permissions, then scroll down to user token scopes. In that section, add the permissions "channels:read" and "chat:write". Then scroll up on the same page, and then click install to "workspace" (workspace should instead say your chosen workspace)
 
 after installing the app to your chosen workplace, you should get a bot token. DO NOT SHARE THIS!!. This token gives the permissions to allow and control your bot!
 
