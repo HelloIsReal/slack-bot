@@ -17,10 +17,17 @@ Github! (https://github.com/HelloIsReal/slack-bot)
 
 
 # Takaba-bot Download instructions
-To install dependencies:
 
 ### Step 1, Downloading Bun
-to run this bot, first you'll need runtime for the bot. you can download Bun here, which is what the bot runs on
+First download the bot. You can do this by running the following command in the terminal.
+
+```bash
+npx takaba-bot
+```
+
+then open the bot in your chosen IDE.
+
+To run this bot, first you'll need runtime for the bot. you can download Bun here, which is what the bot runs on
 [Bun download](https://bun.com)
 
 ### Step 2, Slack app creation
@@ -49,6 +56,7 @@ In the workspace, ping the bot in your channel of choice to add the bot to it.
 To run the bot, run this in the terminal of the IDE you're using
 
 ```bash
-npx takaba-bot
+bun run index.ts
 ```
+
 if you did it all right, Takaba-bot should be up and running!
