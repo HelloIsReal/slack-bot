@@ -16,10 +16,11 @@ const app = new App({
     appToken: process.env.SLACK_APP_TOKEN,
     socketMode: true,
 });
+
 console.log("started!");
 app.message(async ({ message, say}) => {
     if (!("text" in message)) return;
-    if (message.user !== "U0ATHP3CRGF") return;
+    if (message.user !== process.env.USER_ID) return;
 
     
     const text = message.text ?? "";
